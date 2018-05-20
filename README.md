@@ -67,3 +67,8 @@ After editing `update` the cluster and perform `rolling-update`
 * `kops update cluster <cluster-name> --yes`
 * `kops rolling-update cluster <cluster-name> --yes`
 Update will take some time to effect and then after its completed we can validate the cluster
+
+## Delete Cluster
+```sh
+kops delete cluster --name <cluster-name> --yes
+```
